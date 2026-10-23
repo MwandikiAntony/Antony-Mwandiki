@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-export default function Avatar({ src = "/images/antony.jpg", alt = "Antony Mwandiki", variant = "small" }) {
+export default function Avatar({ src = "/images/antony.png", alt = "Antony Mwandiki", variant = "small" }) {
   const [bad, setBad] = useState(false);
   const big = variant === "portrait";
   const cls = big ? "portrait" : "avatar";

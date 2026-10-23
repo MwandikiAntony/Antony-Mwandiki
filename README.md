@@ -41,10 +41,10 @@ Put files in `public/images/`. Missing images fall back to a clean placeholder, 
 
 | File | Used for |
 | --- | --- |
-| `antony.jpg` | Small profile photo on Home and About |
-| `og.jpg` | Social share image (1200 x 630) |
-| `certificates/entrepreneurship-bootcamp-2026.jpg` | Entrepreneurship Bootcamp 2026 |
-| `certificates/hedera-certified-foundation.jpg` | Hedera Certified Foundation |
+| `antony.png` | Small profile photo on Home and About |
+| `og.png` | Social share image (1200 x 630) |
+| `certificates/entrepreneurship-bootcamp-2026.png` | Entrepreneurship Bootcamp 2026 |
+| `certificates/hedera-certified-foundation.png` | Hedera Certified Foundation |
 | `certificates/mern-stack-plp.jpg` | Full-Stack Development (MERN) |
 | `certificates/software-development-plp.jpg` | Software Development Fundamentals |
 | `certificates/python-developer-sololearn.jpg` | Python Developer |

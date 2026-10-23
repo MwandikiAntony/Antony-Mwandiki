@@ -12,15 +12,15 @@ export const metadata = {
   keywords: ["Antony Mwandiki", "full-stack developer Kenya", "web developer Nairobi", "IsoMount Tech Collective", "Sanctum", "Innovant Technologies", "Next.js developer", "MERN developer", "Hedera developer"],
   authors: [{ name: site.name, url: site.url }],
   alternates: { canonical: "/" },
-  openGraph: { type: "website", siteName: site.name, title: `${site.name} | ${site.title}`, description: site.description, url: site.url, images: ["/images/og.jpg"] },
-  twitter: { card: "summary_large_image", title: `${site.name} | ${site.title}`, description: site.description, images: ["/images/og.jpg"] },
+  openGraph: { type: "website", siteName: site.name, title: `${site.name} | ${site.title}`, description: site.description, url: site.url, images: ["/images/og.png"] },
+  twitter: { card: "summary_large_image", title: `${site.name} | ${site.title}`, description: site.description, images: ["/images/og.png"] },
   robots: { index: true, follow: true },
   verification: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION ? { google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION } : undefined,
 };
 
 const person = {
   "@context": "https://schema.org", "@type": "Person", name: site.name, url: site.url,
-  image: `${site.url}/images/antony.jpg`, email: `mailto:${site.email}`,
+  image: `${site.url}/images/antony.png`, email: `mailto:${site.email}`,
   jobTitle: "Full-Stack Software Engineer and Founder",
   address: { "@type": "PostalAddress", addressLocality: "Nairobi", addressCountry: "KE" },
   alumniOf: [{ "@type": "CollegeOrUniversity", name: "Multimedia University of Kenya" }, { "@type": "EducationalOrganization", name: "Power Learn Project Academy" }],
