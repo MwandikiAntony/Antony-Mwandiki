@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { site } from "@/lib/data";
 import BackToTop from "@/components/BackToTop";
 
-export const viewport = { themeColor: [{ media: "(prefers-color-scheme: light)", color: "#f3f5f8" }, { media: "(prefers-color-scheme: dark)", color: "#0b131b" }] };
+export const viewport = { themeColor: [{ media: "(prefers-color-scheme: light)", color: "#f8f6f1" }, { media: "(prefers-color-scheme: dark)", color: "#0c1220" }] };
 export const metadata = {
   metadataBase: new URL(site.url),
   title: { default: `${site.name} | ${site.title}`, template: `%s | ${site.name}` },

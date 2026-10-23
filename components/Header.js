@@ -43,6 +43,7 @@ export default function Header() {
           </div>
         </nav>
       </div>
+      <div className="scrim" data-open={open} onClick={() => setOpen(false)} aria-hidden="true" />
     </header>
   );
 }
